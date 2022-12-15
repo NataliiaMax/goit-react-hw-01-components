@@ -1,0 +1,13 @@
+.title{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.stat-list{
+    display: flex;
+}
+
+.item{
+justify-content: center;
+align-items: center;
+}
