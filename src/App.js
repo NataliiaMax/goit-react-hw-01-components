@@ -1,7 +1,6 @@
 import React from 'react';
 import Profile from './components/Profile/profile';
-// import user from './components/Profile/user.json';
-import user from "path/to/user.json";
+import user from './components/Profile/user.json';
 import Statistics from "./components/Statistics/statistics";
 import data from "./components/Statistics/data.json";
 
