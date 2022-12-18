@@ -1,0 +1,32 @@
+table {
+    table-layout: fixed;
+    width: 600px;
+    border-collapse: collapse;
+    border: 3px solid lightgray;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .25);
+    margin: auto;
+  }
+
+  thead{
+    background-color: dodgerblue;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+  }
+
+  tbody{
+    text-align:center;
+    text-transform: capitalize;
+  }
+
+  th, td {
+    border: 1px solid lightgray;
+ }
+
+ tbody:nth-child(even) {
+    background-color: rgba(112, 146, 177, 0.445);
+  }
+ 
+  th, td {
+    padding: 20px;
+  }

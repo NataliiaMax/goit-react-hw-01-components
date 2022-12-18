@@ -1,13 +1,35 @@
+.statistics{
+    /* display: flex; */
+    margin: auto;
+    /* align-items: center;
+    justify-content: center; */
+    border-radius: 5px;
+  overflow: hidden;
+  width: 300px;
+}
+
 .title{
     text-align: center;
     text-transform: capitalize;
+     width: 300px;
+    font-weight: 600;
 }
 
 .statList{
     display: flex;
+    flex-direction: row;
+    list-style: none;
 }
 
 .item{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
 justify-content: center;
 align-items: center;
 }
+
+ .label{
+font-weight: 400;
+} 
